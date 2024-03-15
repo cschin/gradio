@@ -1,5 +1,35 @@
 # @gradio/app
 
+## 1.27.1
+
+### Fixes
+
+- [#7564](https://github.com/gradio-app/gradio/pull/7564) [`5d1e8da`](https://github.com/gradio-app/gradio/commit/5d1e8dae5ac23f605c3b5f41dbe18751dff380a0) - batch UI updates on a per frame basis.  Thanks @pngwn!
+- [#7703](https://github.com/gradio-app/gradio/pull/7703) [`598ad7b`](https://github.com/gradio-app/gradio/commit/598ad7baf722181a25200e9a8ba858bae39c7d82) - fix dev mode.  Thanks @pngwn!
+
+### Dependency updates
+
+- @gradio/button@0.2.26
+- @gradio/upload@0.7.8
+- @gradio/code@0.5.7
+- @gradio/accordion@0.3.5
+- @gradio/client@0.13.1
+- @gradio/dataframe@0.6.8
+- @gradio/dataset@0.1.26
+- @gradio/annotatedimage@0.5.7
+- @gradio/audio@0.9.7
+- @gradio/chatbot@0.7.7
+- @gradio/downloadbutton@0.1.3
+- @gradio/file@0.5.7
+- @gradio/fileexplorer@0.3.27
+- @gradio/gallery@0.8.3
+- @gradio/image@0.9.7
+- @gradio/imageeditor@0.4.7
+- @gradio/model3d@0.8.6
+- @gradio/simpleimage@0.3.7
+- @gradio/uploadbutton@0.5.3
+- @gradio/video@0.6.7
+
 ## 1.27.0
 
 ### Features

@@ -1,5 +1,23 @@
 # gradio
 
+## 4.22.0
+
+### Features
+
+- [#7712](https://github.com/gradio-app/gradio/pull/7712) [`aca4892`](https://github.com/gradio-app/gradio/commit/aca4892ea591d089e3121ffd144ad6767e0bad71) - More fixes for `gr.load()` as well as a tweaking the `__str__` and `__repr__` methods of components.  Thanks @abidlabs!
+- [#7667](https://github.com/gradio-app/gradio/pull/7667) [`aba4470`](https://github.com/gradio-app/gradio/commit/aba44707af20b78a7b87f5f7bd3f189d971afc71) - Add `auth`, `auth_message`, and `root_path` parameters to `mount_gradio_app`.  Thanks @abidlabs!
+
+### Fixes
+
+- [#7716](https://github.com/gradio-app/gradio/pull/7716) [`188b86b`](https://github.com/gradio-app/gradio/commit/188b86b76669a411ee70233e16bf181786a5909c) - Add support for object-detection models in `gr.load()`.  Thanks @abidlabs!
+- [#7564](https://github.com/gradio-app/gradio/pull/7564) [`5d1e8da`](https://github.com/gradio-app/gradio/commit/5d1e8dae5ac23f605c3b5f41dbe18751dff380a0) - batch UI updates on a per frame basis.  Thanks @pngwn!
+- [#7718](https://github.com/gradio-app/gradio/pull/7718) [`6390d0b`](https://github.com/gradio-app/gradio/commit/6390d0bf6c2be0aefa56102dd029f25161bfebc3) - Add support for python client connecting to gradio apps running with self-signed SSL certificates.  Thanks @abidlabs!
+- [#7697](https://github.com/gradio-app/gradio/pull/7697) [`a1c24db`](https://github.com/gradio-app/gradio/commit/a1c24dbf2ecace4db8692b7ed434f1ebfc4de75a) - Fix OAuth + fix OAuth documentation + undocument logout button.  Thanks @Wauplin!
+- [#7704](https://github.com/gradio-app/gradio/pull/7704) [`95c6bc8`](https://github.com/gradio-app/gradio/commit/95c6bc897be14e28a568242ea31516bfe2df13e8) - Fix flagged files and ensure that flagging_mode="auto" saves output components as well.  Thanks @abidlabs!
+- [#7706](https://github.com/gradio-app/gradio/pull/7706) [`bc61ff6`](https://github.com/gradio-app/gradio/commit/bc61ff6b1603eedf3111f1b5c3d2751629902d98) - Several fixes to `gr.load`.  Thanks @abidlabs!
+- [#7703](https://github.com/gradio-app/gradio/pull/7703) [`598ad7b`](https://github.com/gradio-app/gradio/commit/598ad7baf722181a25200e9a8ba858bae39c7d82) - fix dev mode.  Thanks @pngwn!
+- [#7707](https://github.com/gradio-app/gradio/pull/7707) [`28342a2`](https://github.com/gradio-app/gradio/commit/28342a204001c98b86628635582fcf54aa0855aa) - Fix httpx timeout issues.  Thanks @freddyaboulton!
+
 ## 4.21.0
 
 ### Features
