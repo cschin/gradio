@@ -120,7 +120,7 @@
 			value={_value}
 			{latex_delimiters}
 			{render_markdown}
-			pending_message={loading_status?.status === "pending"}
+			pending_message=false
 			{rtl}
 			{show_copy_button}
 			on:change={() => gradio.dispatch("change", value)}
